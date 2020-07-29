@@ -1,13 +1,14 @@
-def create_an_empty_array
-  
+def create_an_empty_array 
+  []
 end
 
 def create_an_array
-  
+  cats = ["menina", "galinda", "hinata", "shikamaru"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.push ("element")
+  puts array
 end
 
 def add_element_to_start_of_array(array, element)
